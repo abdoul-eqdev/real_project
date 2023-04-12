@@ -25,7 +25,7 @@
         <div class="toast" id="alert_toast" role="alert" aria-live="assertive" aria-atomic="true">
         <div class="toast-body text-white">
         </div>
-      </div>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="./"><?php echo $_SESSION['setting_name'] ?></a>
@@ -86,10 +86,13 @@
     </div>
 
 </div>
+<div class="modal-footer">
+        <button type="button" class="btn btn-primary" id='confirm' onclick="">Continuer</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+      </div>
 
 </section>
 
- <!-- fin ajout -->
 
 <div class="modal fade" id="confirm_modal" role='dialog'>
     <div class="modal-dialog modal-md" role="document">

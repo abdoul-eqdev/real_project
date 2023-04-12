@@ -14,7 +14,7 @@
     <div class="container">
         <div class="card">
             <div class="card-body">
-                <form action="" id="checkout-frm">
+                <form action="essaie/envoimail.php"  method=post id="checkoutfrm">
                     <h4>Veuillez bien verifier vos coordonnées de livraison</h4>
                     <div class="form-group">
                         <label for="" class="control-label">Prénoms </label>
@@ -38,7 +38,7 @@
                     </div>  
 
                     <div class="text-center">
-                        <button class="btn btn-block btn-outline-primary">Passer la commande</button>
+                        <button class="btn btn-block btn-outline- primary" name="valider">Passer la commande</button>
                     </div>
                 </form>
             </div>
@@ -57,7 +57,7 @@
                 data:$(this).serialize(),
                 success:function(resp){
                     if(resp==1){
-                        alert_toast("Commande passée avec succès.")
+                        alert_toast("Commande passée avec succès vous recevrez un mail de.")
                         setTimeout(function(){
                             location.replace('index.php?page=home')
                         },1500)

@@ -1,7 +1,7 @@
 <?php session_start() ?>
 
 <div class="container-fluid">
-	<form action="" id="signup-frm">
+	<form action="essaie/envoimail.php" id="signup-frm">
 		<div class="form-group">
 			<label for="" class="control-label">Prénoms</label>
 			<input type="text" name="first_name" required="" class="form-control">

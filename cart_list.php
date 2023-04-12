@@ -49,7 +49,7 @@
 			        			<p class='truncate'> <b><small>Desc :<?php echo $row['description'] ?></small></b></p>
 			        			<p> <b><small>Prix Unitaire :<?php echo number_format($row['price'],2) ?> Fcfa</small></b></p>
 			        			<p><small>Qté :</small></p>
-			        			<div class="input-group mb-3">
+			         			<div class="input-group mb-3">
 								  <div class="input-group-prepend">
 								    <button class="btn btn-outline-secondary qty-minus" type="button"   data-id="<?php echo $row['cid'] ?>"><span class="fa fa-minus"></button>
 								  </div>

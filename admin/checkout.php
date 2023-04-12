@@ -41,6 +41,9 @@
                         <button class="btn btn-block btn-outline-primary">Confirmer</button>
                     </div>
                 </form>
+
+                <?php include '../index.php?page=home'; ?>
+
             </div>
         </div>
     </div>
